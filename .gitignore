@@ -1,0 +1,25 @@
+# Files the mod and its helpers write while running
+*.log
+cmd_*.txt
+link_*_in.txt
+link_*_out.txt
+coop_A.txt
+coop_B.txt
+steam_cmd*.txt
+steam_status*.txt
+steam_rooms*.txt
+__pycache__/
+*.pyc
+
+# Embedded Python runtime for the Steam helper (third-party; tools/make_package.py copies it from disk)
+python/
+
+# Machine-specific settings
+autoexec.txt
+remote.txt
+coop_role.txt
+
+# Research / investigation scripts (not part of the mod)
+*hooks*.lua
+devtools.lua
+props_*.txt
